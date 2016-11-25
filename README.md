@@ -88,3 +88,9 @@ set SITESDIR		"sites"
 #
 set REMOVEONUP		"yes"
 ```
+
+### TODO
+- [x] Initial commit
+- [x] Testing
+- [ ] Maybe some fancy automated script that handles everything ?
+- [ ] Bash alternative ?
