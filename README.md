@@ -1,5 +1,5 @@
 # vvv-symlinks
-### [*fish*](https://github.com/fish-shell/fish-shell) script, that automatically generates symlinks in a specific directory when [vagrant](https://github.com/Varying-Vagrant-Vagrants/VVV) is run.
+### [*fish*](https://github.com/fish-shell/fish-shell) script, that automatically generates symlinks in a specific directory when [vagrant (varying vagrant vagrants)](https://github.com/Varying-Vagrant-Vagrants/VVV) is run.
 
 The script needs some manual changes to the `Vagrantfile` so that it's actually able to work.
 
