@@ -98,5 +98,6 @@ set REMOVEONUP		"yes"
 ### TODO
 - [x] Initial commit
 - [x] Testing
+- [ ] Simplify install instructions
 - [ ] Maybe some fancy automated script that handles everything ?
 - [ ] Bash alternative ?
