@@ -3,6 +3,12 @@
 
 The script needs some manual changes to the `Vagrantfile` so that it's actually able to work.
 
+The code that will be added to the `Vagrantfile` requires [vagrant-triggers](https://github.com/emyl/vagrant-triggers) to be installed. In order to do so, you can run:
+
+```
+vagrant plugin install vagrant-triggers
+```
+
 To get started, clone this repository into a folder in your ***vagrant*** folder.
 
 For example:
