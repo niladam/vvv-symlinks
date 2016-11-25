@@ -1,8 +1,10 @@
 #! /usr/local/bin/fish
 #
-# Fish shell that generates symlinks to all the sites
+# Fish shell that generates symlinks to all the sites in the www directory
+# of the vvv vagrant (https://github.com/Varying-Vagrant-Vagrants/VVV)
 #
 # v1.0 - 25 Nov 2016
+# * initial commit to git
 #
 # Let's configure some vars
 #
@@ -100,7 +102,7 @@ for folder in (ls $MAINDIR/$VAGRANTDIR/$VAGRANTWWWDIR)
 				# ln -s 0_GitProjects/vagrant-hennik/www/ site
 				for i in $DOMAIN_NAME
 					# echo "(MULTIPLE DOMAINS): $i exists in folder $folder"
-					echo "Trying to link $MAINDIR/$VAGRANTDIR/$VAGRANTWWWDIR/$folder/htdocs/ to $MAINDIR/$SITESDIR/$i"
+					# echo "Trying to link $MAINDIR/$VAGRANTDIR/$VAGRANTWWWDIR/$folder/htdocs/ to $MAINDIR/$SITESDIR/$i"
 					ln -s $MAINDIR/$VAGRANTDIR/$VAGRANTWWWDIR/$folder/htdocs/ $MAINDIR/$SITESDIR/$i
 				end
 				# echo "(MULTIPLE DOMAINS): $DOMAIN_NAME[0] exists in folder $folder"
