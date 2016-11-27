@@ -5,7 +5,7 @@
 #
 # v1.0 - 25 Nov 2016
 # * initial commit to git
-#
+# * small changes.
 # Let's configure some vars
 #
 # As a general rule, please make sure you DO NOT USE SPACES in directories.
